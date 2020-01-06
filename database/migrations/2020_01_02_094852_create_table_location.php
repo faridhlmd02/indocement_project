@@ -13,7 +13,7 @@ class CreateTableLocation extends Migration
      */
     public function up()
     {
-        Schema::create('table_location', function (Blueprint $table) {
+        Schema::create('shop', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('nama_toko');
             $table->string('kecamatan');
