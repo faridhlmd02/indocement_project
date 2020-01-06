@@ -30,13 +30,13 @@
     <li class="nav-item">
         <a class="nav-link" href="{{'user'}}">
             <i class="fas fa-fw fa-plus"></i>
-            <span>Tambah Data</span></a>
+            <span>Add Data</span></a>
     </li>
 
     <!-- Divider -->
     <hr class="sidebar-divider">
 
-    
+
 
 </ul>
 <!-- End of Sidebar -->

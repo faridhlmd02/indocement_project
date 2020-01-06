@@ -15,14 +15,14 @@ class UserController extends Controller
     public function store(Request $request)
     {
         $validasi = $request->validate([
-            'nama' => 'required',
+            'name' => 'required',
             'email' => 'required',
             'phone' => 'required',
-            'lokasi' => 'required',
-            'jabatan' => 'required'
+            'location' => 'required',
+            'position' => 'required'
         ]);
         $user = User::create($validasi);
 
-        return redirect('/user')->with('success', 'Selamat data berhasil ditambahkan');
+        return redirect('/user')->with('success', 'Data has been added');
     }
 }

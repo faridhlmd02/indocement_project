@@ -8,26 +8,26 @@
 <div class="container">
     <table class="table table-bordered">
         <thead>
-          <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Name</th>
-            <th scope="col">Email</th>
-            <th scope="col">Phone</th>
-            <th scope="col">Location</th>
-            <th scope="col">Jabatan</th>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Location</th>
+                <th scope="col">Position</th>
+            <tr>
         <tbody>
-          <tr>
             <th scope="row">1</th>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
-        
-          </tr>
-          
+
+            </tr>
+
         </tbody>
-      </table>
+    </table>
 </div>
 
 @endsection
